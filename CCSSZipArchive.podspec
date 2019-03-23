@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CCSSZipArchive"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "CCSSZipArchive, SSZipArchive, Utility class for zipping and unzipping files on iOS and Mac."
 
   # This description is used to generate tags and improve search results.
@@ -64,7 +64,7 @@ Pod::Spec.new do |spec|
 
   #  When using multiple platforms
   spec.ios.deployment_target = "8.0"
-  spec.osx.deployment_target = "10.7"
+  spec.osx.deployment_target = "10.8"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
 

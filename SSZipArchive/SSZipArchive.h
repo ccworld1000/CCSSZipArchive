@@ -27,7 +27,7 @@
 + (BOOL)createZipFileAtPath:(NSString *)path withFilesAtPaths:(NSArray *)filenames;
 + (BOOL)createZipFileAtPath:(NSString *)path withContentsOfDirectory:(NSString *)directoryPath;
 
-- (id)initWithPath:(NSString *)path;
+- (instancetype)initWithPath:(NSString *)path;
 - (BOOL)open;
 - (BOOL)writeFile:(NSString *)path;
 - (BOOL)writeData:(NSData *)data filename:(NSString *)filename;
