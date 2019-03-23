@@ -6,3 +6,7 @@
 xcuserdata
 DerivedData
 build
+
+Pods
+Podfile.lock
+Podfile
