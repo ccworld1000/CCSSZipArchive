@@ -11,10 +11,11 @@ SSZipArchive is a simple utility class for zipping and unzipping files. Features
 
 ## Adding to your project
 
-1. Add the `SSZipArchive` and `minizip` folders to your project.
-2. Add the `libz` library to your target
+```shell
+pod 'CCSSZipArchive'
+```
 
-SSZipArchive requires ARC.
+
 
 ## Usage
 
@@ -35,7 +36,7 @@ NSArray *inputPaths = [NSArray arrayWithObjects:
 
 ## Tests
 
-Simply, open the Xcode 5 or higher project in the Tests directory and press Command-U to run the tests.
+Simply, open the Xcode  or higher project in the Tests directory and press Command-U to run the tests.
 
 ## License
 
